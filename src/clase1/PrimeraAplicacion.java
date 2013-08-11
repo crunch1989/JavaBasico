@@ -130,7 +130,7 @@ public class PrimeraAplicacion {
     public static void ejercicio8(int mes) {
         int[]meses = {30, 28, 31, 30, 31, 30, 31, 30, 31, 31, 31, 30};
         if(mes<=meses.length){
-             System.out.println(meses(mes+1));
+             System.out.println(meses[mes+1]);
         }
        
     }
