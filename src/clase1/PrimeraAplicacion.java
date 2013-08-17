@@ -10,9 +10,9 @@ public class PrimeraAplicacion {
        //PrimeraAplicacion.ejercicioDoWhile();
        //PrimeraAplicacion.EjercicioFor();
        // PrimeraAplicacion.ejercicio7();
-        //PrimeraAplicacion.ejerciciomatriz();
+        PrimeraAplicacion.ejerciciomatriz();
         //PrimeraAplicacion.ejerciciomatrizbidimensional();
-        PrimeraAplicacion.ejercicio8(31);
+        //PrimeraAplicacion.ejercicio8(31);
     }
     public static void swtich() {
         
