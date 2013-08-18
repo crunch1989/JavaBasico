@@ -49,7 +49,23 @@ public class Tigre extends Animal{
     {
         System.out.println("Estoy Zarpando");
     }
-    
-    
+   //EJEMPLO
+
+  /*Tigre tigreJorge = new Tigre("Jorge");
+        Tigre tigreJose = new Tigre("Jorge");
+        
+        System.out.println(tigreJorge.equals(tigreJose));
+		//retorna true
+*/
+//CLASE TIGRE
+@Override
+    public boolean equals(Object obj) {
+
+        if (obj instanceof Tigre) {
+            return ((Tigre) obj).getNombre().equals(this.getNombre());
+        }
+        return false;
+
+    }
    
 }
